@@ -1,0 +1,13 @@
+.count {
+  min-width: 300px;
+  height: 220px;
+  font-size: 120px;
+  padding: 25px;
+  color: white;
+  background-color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid white;
+  margin-bottom: 15px;
+}

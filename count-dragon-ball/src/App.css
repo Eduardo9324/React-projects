@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: linear-gradient(to bottom, #3f3f3f, #1b1b32);
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.db-logo-contenedor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100px;
+}
+
+.db-logo-contenedor img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.db-logo {
+  height: 80px;
+}
+
+.contenedor-contador {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
