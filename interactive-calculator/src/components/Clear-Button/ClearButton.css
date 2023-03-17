@@ -1,0 +1,22 @@
+.clear-button {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 45px;
+  cursor: pointer;
+  user-select: none; /* No permite que se seleccione texto en la pantalla */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.clear-button:hover {
+  background-color: #008f39;
+  color: black;
+}
