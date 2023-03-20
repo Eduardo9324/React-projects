@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import taskLogo from './imgs/logo-task.png';
-import Task from './components/Task/Task';
+/* import Task from './components/Task/Task'; */
+import TaksList from './components/List-of-tasks/TaksList';
 
 const App = () => {
 
@@ -16,7 +17,8 @@ const App = () => {
       </div>
       <div className='main-list'>
         <h1>Mis Tareas</h1>
-        <Task text='Aprende react' />
+        <TaksList />
+        {/* <Task text='Aprende react' /> */}
       </div>
     </div>
   );
