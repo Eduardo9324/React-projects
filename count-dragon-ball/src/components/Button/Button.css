@@ -1,4 +1,4 @@
-button {
+/* button {
   width: 250px;
   height: 80px;
   font-size: 35px;
@@ -22,4 +22,62 @@ button:hover {
 
 .button-reset {
   background-color: #5a01a7;
+} */
+
+button {
+  width: 250px;
+  height: 80px;
+  font-size: 35px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to bottom right, #4CAF50, #3f8b39);
+  border: none;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  transform: perspective(100px) rotateX(5deg);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-image: linear-gradient(to bottom right, #bb341c, #2d6f29);
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+  transform: perspective(100px) rotateX(-5deg);
+}
+
+button:active {
+  background-color: #002ead;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  transform: perspective(100px) scale(0.95);
+}
+
+.button-reset {
+  background-color: #5a01a7;
+  border: none;
+  border-image: linear-gradient(to right, #5a01a7, #c471ed) 1 1;
+  border-image-slice: 10;
+}
+
+.button-reset:hover {
+  background-image: linear-gradient(to bottom right, #2a2ad5, #9c41c5);
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button-click {
+  background-color: #002ead;
+  animation: pulse 1s infinite;
 }
